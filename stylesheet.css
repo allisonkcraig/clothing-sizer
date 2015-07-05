@@ -1,5 +1,11 @@
 .col-md-12 {
 	text-align: center;
-	background: pink;
+	background: #F27E8C;
 	position: absolute;
+	color: white;
+	font-family: Raleway;
+}
+#measurement-table {
+	color: #053E53;
+	font-family: Raleway;
 }
