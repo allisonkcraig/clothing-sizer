@@ -31,7 +31,7 @@ mossimo_tops_num = {
 
 def determine_brand():
 	"""Determines which brand the user would like to check their size in"""
-	user_brand_choice = int(raw_input("Enter 1 for Old Navy, 2 for Target - Mossimo"))
+	user_brand_choice = int(raw_input("Enter 1 for Old Navy, 2 for Target - Mossimo: "))
 	if user_brand_choice == 1:
 		selected_brand = old_navy_tops_num
 		return selected_brand
@@ -75,9 +75,7 @@ def determine_bigger_size():
 	elif size_per_bust > size_per_waist:
 		print size_per_bust, "would be the better size"
 	else:
-		print "Go with either size"
-		print size_per_waist
-		print size_per_bust
+		print "Go with size ", size_per_waist
 
 
 determine_bigger_size()
